@@ -1,0 +1,4 @@
+docker build -t nahidahsan/to-do-list:0.0.1.RELEASE .
+docker images -a
+docker container run -d -p 3000:3000 eadb68f8ecc2
+docker container stop b96
